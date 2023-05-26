@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #09151f;
+    color: whitesmoke;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    font-size: 35px;
+    color: beige;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+     text-decoration: none;
+     font-size: 20px;
+     color: beige;
+     margin-left: 40px;
+     font-weight: 400;
+
+}
+
+.navbar a:hover {
+    color:blueviolet
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 0 0 10%;
+
+}
+
+
+.home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+
+.home-content h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: aqua;
+}
+
+.home-content p {
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.location {
+    color: purple;
+}
+
+.skill {
+    color: blueviolet;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.about h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+
+.about h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: aqua;
+}
+
+.about p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.mental {
+    color: blueviolet;
+}
+
+.about-content ol {
+    display: flex column;
+    align-items: center;
+    padding: 2% 10%;
+}
+
+.about-content li {
+    font-size: 35px;
+    font-style: italic;
+}
+
+
+.about-content h1 {
+    text-align: center;
+}
+
+.about-content p {
+    font-style: italic;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+
+.olist {
+    list-style: none;
+}
+
+.project p {
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+}
+
+.project h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.project h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: aqua;
+    text-align: center;
+}
+
+
+.list {
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+    color: purple;
+}
+
+
+
+
+.contact h2 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 35px;
+}
+
+.contact p {
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.contact form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot {
+    background-color: transparent;
+}
+
+
+
+    
